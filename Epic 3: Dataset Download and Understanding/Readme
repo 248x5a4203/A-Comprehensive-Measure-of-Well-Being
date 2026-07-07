@@ -1,1 +1,118 @@
+# Epic 3: Dataset Download and Understanding
 
+## Overview
+
+Epic 3 focuses on acquiring, loading, exploring, and visualizing the **Human Development Index (HDI) Dataset**. This phase is essential for understanding the structure, quality, and characteristics of the data before proceeding to preprocessing and machine learning model development.
+
+The dataset contains **195 countries** and **82 human development indicators**, including variables related to life expectancy, education, income, and overall HDI. Through exploratory data analysis (EDA), important relationships between features and the HDI score are identified, helping in feature selection and improving model performance.
+
+---
+
+## Objective
+
+- Download the HDI dataset from the provided source.
+- Load the dataset into a Pandas DataFrame.
+- Understand the dataset structure and features.
+- Perform exploratory data analysis (EDA).
+- Visualize relationships between key indicators and HDI.
+- Identify relevant features for model training.
+
+---
+
+## Tasks Completed
+
+### Task 1: Reading the Dataset
+
+- Downloaded the Human Development Index (HDI) dataset.
+- Stored the dataset in the project directory.
+- Loaded the dataset using the Pandas library.
+- Verified successful data import.
+
+**Dataset Source**
+
+https://github.com/Guided-Projects/HumanDevelopmentIndex/tree/main/Dataset
+
+---
+
+### Task 2: Understanding the Dataset
+
+- Displayed the first five records using `head()`.
+- Verified the dataset dimensions (**195 rows × 82 columns**).
+- Examined column names and data types.
+- Generated statistical summaries using `describe()`.
+- Inspected dataset information using `info()`.
+
+---
+
+### Task 3: Data Visualization
+
+Performed exploratory visualizations using the first **20 records** of the dataset (`data1`).
+
+Visualizations included:
+
+- Unique Country Values
+- Mean Years of Schooling vs HDI
+- Life Expectancy vs HDI
+- Correlation Heatmap
+
+These visualizations helped identify trends, relationships, and important predictors of the Human Development Index.
+
+---
+
+## Tools and Libraries Used
+
+- Python 3.x
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Visual Studio Code
+
+---
+
+## Workflow
+
+```
+Download Dataset
+        │
+        ▼
+Load Dataset using Pandas
+        │
+        ▼
+Explore Dataset Structure
+        │
+        ▼
+Display Sample Records
+        │
+        ▼
+Analyze Data Types
+        │
+        ▼
+Generate Statistical Summary
+        │
+        ▼
+Perform Data Visualization
+        │
+        ▼
+Identify Important Features
+        │
+        ▼
+Prepare for Data Preprocessing
+```
+
+---
+
+## Key Outcomes
+
+- Successfully downloaded and loaded the HDI dataset.
+- Verified the dataset structure and dimensions.
+- Explored feature names, data types, and statistical properties.
+- Visualized relationships between education, life expectancy, and HDI.
+- Identified highly correlated features using a correlation heatmap.
+- Prepared the dataset for preprocessing and Linear Regression model training.
+
+---
+
+## Result
+
+Epic 3 was successfully completed by acquiring, understanding, and analyzing the Human Development Index dataset. The exploratory analysis provided valuable insights into the dataset and established a strong foundation for the next phase of data preprocessing and machine learning model development.

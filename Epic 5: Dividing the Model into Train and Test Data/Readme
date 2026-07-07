@@ -1,1 +1,73 @@
+# Epic 5: Dividing the Model into Train and Test Data
 
+## Overview
+
+Epic 5 focuses on preparing the preprocessed Human Development Index (HDI) dataset for machine learning by dividing it into **training** and **testing** datasets. This step enables the Linear Regression model to learn patterns from the training data and evaluate its performance on previously unseen testing data.
+
+Using Scikit-learn's `train_test_split()` function helps improve model reliability, prevent overfitting, and ensure accurate performance evaluation.
+
+---
+
+## Objective
+
+- Divide the dataset into training and testing sets.
+- Prepare data for Linear Regression model training.
+- Evaluate model performance on unseen data.
+- Improve model generalization.
+
+---
+
+## Task Completed
+
+### Train and Test Data
+
+- Imported `train_test_split` from Scikit-learn.
+- Split the dataset into:
+  - **Training Dataset (80%)**
+  - **Testing Dataset (20%)**
+- Used a fixed `random_state` for reproducible results.
+- Verified the dimensions of the generated datasets.
+
+---
+
+## Technology Used
+
+- Python
+- Pandas
+- Scikit-learn
+
+---
+
+## Workflow
+
+```text
+Preprocessed Dataset
+        │
+        ▼
+Independent Variables (X)
+Dependent Variable (Y)
+        │
+        ▼
+train_test_split()
+        │
+ ┌──────┴──────┐
+ ▼             ▼
+Training Set  Testing Set
+        │
+        ▼
+Ready for Model Training
+```
+
+---
+
+## Outcome
+
+- Successfully split the dataset into training and testing subsets.
+- Prepared the data for Linear Regression model development.
+- Ensured reliable evaluation using unseen testing data.
+
+---
+
+## Result
+
+Epic 5 was successfully completed. The HDI dataset is now properly divided into training and testing sets, providing a strong foundation for building and evaluating the Linear Regression model.

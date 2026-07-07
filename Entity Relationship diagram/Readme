@@ -1,1 +1,59 @@
+# Entity Relationship Diagram
 
+## Overview
+
+The Entity Relationship (ER) Diagram illustrates the database design of the **A Comprehensive Measure of Well-Being (HDI Prediction System)**. It defines the entities, attributes, primary keys, foreign keys, and relationships required for storing user information, prediction inputs, machine learning models, datasets, and prediction results.
+
+---
+
+## Objective
+
+- Design the database architecture.
+- Define entities and relationships.
+- Organize HDI prediction data efficiently.
+- Improve data consistency.
+
+---
+
+## Entities
+
+- User
+- Country
+- HDI Input Data
+- ML Model
+- HDI Prediction
+- Dataset
+- Visualization Report
+- Session
+
+---
+
+## Relationships
+
+- User → HDI Input Data (1:M)
+- Country → HDI Input Data (1:M)
+- HDI Input Data → HDI Prediction (1:1)
+- ML Model → HDI Prediction (1:M)
+- HDI Prediction → Visualization Report (1:M)
+- Dataset → ML Model (1:M)
+- User → Session (1:M)
+
+---
+
+## Tools Used
+
+- Draw.io / Lucidchart / ERD Tool
+- Markdown
+- GitHub
+
+---
+
+## Outcome
+
+Designed a complete ER Diagram representing the database structure of the HDI Prediction System. The diagram provides a clear understanding of entity relationships and supports efficient application development.
+
+---
+
+## Result
+
+The ER Diagram serves as the foundation for implementing the HDI Prediction System database, ensuring organized data management and scalable machine learning application development.

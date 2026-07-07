@@ -1,1 +1,109 @@
+# Epic 8: Building the Flask Web Application
 
+## Overview
+
+Epic 8 focuses on developing and deploying a Flask-based web application for the **Human Development Index (HDI) Prediction System**. The application integrates the trained Linear Regression model with an interactive web interface, enabling users to input socio-economic indicators and receive predicted HDI scores in real time.
+
+The Flask framework handles routing, user requests, model loading, prediction processing, and rendering HTML pages, providing a complete end-to-end deployment of the machine learning model.
+
+---
+
+## Objective
+
+- Develop the Flask backend.
+- Load the trained machine learning model.
+- Create interactive web pages.
+- Process user inputs.
+- Generate HDI predictions.
+- Deploy and test the complete application.
+
+---
+
+## Tasks Completed
+
+### Task 1: Writing the Flask Backend
+
+- Imported Flask, Pickle, and NumPy libraries.
+- Initialized the Flask application.
+- Loaded the saved `hdi_model.pkl`.
+- Created the home (`/`) route.
+- Created the prediction (`/predict`) route.
+- Processed user inputs and generated HDI predictions.
+
+### Task 2: Running the Application
+
+- Executed the Flask application locally.
+- Verified navigation between the Home and Prediction pages.
+- Accepted user inputs through HTML forms.
+- Generated HDI predictions using the trained Linear Regression model.
+- Displayed prediction results successfully on the web interface.
+
+---
+
+## Technologies Used
+
+- Python
+- Flask
+- Pickle
+- NumPy
+- HTML
+- CSS
+- Visual Studio Code
+
+---
+
+## Application Workflow
+
+```text
+Start Flask Server
+        │
+        ▼
+Open Home Page
+        │
+        ▼
+Navigate to Prediction Page
+        │
+        ▼
+Enter Development Indicators
+        │
+        ▼
+Submit Input
+        │
+        ▼
+Flask Backend
+        │
+        ▼
+Load Trained Model
+        │
+        ▼
+Generate HDI Prediction
+        │
+        ▼
+Display Predicted HDI Score
+```
+
+---
+
+## Features
+
+- User-friendly interface.
+- Home page with project introduction.
+- Prediction page with input form.
+- Real-time HDI prediction.
+- Integration of the trained Linear Regression model.
+- Fast and reliable prediction results.
+
+---
+
+## Outcome
+
+- Successfully integrated the trained model with Flask.
+- Developed a responsive prediction interface.
+- Verified accurate prediction generation.
+- Completed deployment of the HDI Prediction System.
+
+---
+
+## Result
+
+Epic 8 was successfully completed. The Flask web application provides a complete and interactive platform for predicting Human Development Index (HDI) scores based on user-provided socio-economic indicators, demonstrating the practical deployment of a machine learning model.

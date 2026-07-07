@@ -1,1 +1,87 @@
+# Epic 6: Fitting the Model
 
+## Overview
+
+Epic 6 focuses on building, training, and evaluating the **Linear Regression** model for predicting the Human Development Index (HDI). The model is trained using the prepared training dataset and then tested on unseen data to assess its prediction accuracy and generalization performance.
+
+---
+
+## Objective
+
+- Train a Linear Regression model.
+- Generate HDI predictions using the testing dataset.
+- Compare predicted values with actual values.
+- Evaluate model performance using the R² score.
+- Validate the model with new input data.
+
+---
+
+## Tasks Completed
+
+### Task 1: Fit the Linear Regression Model
+
+- Imported the `LinearRegression` algorithm from Scikit-learn.
+- Created an instance of the Linear Regression model.
+- Trained the model using `X_train` and `Y_train`.
+- Learned the relationship between HDI indicators and the target score.
+
+### Task 2: Predicting the Results
+
+- Generated predictions using `X_test`.
+- Displayed predicted (`y_pred`) and actual (`Y_test`) values.
+- Calculated the **R² score** to evaluate model performance.
+- Tested the model with sample input values.
+
+---
+
+## Technologies Used
+
+- Python
+- Scikit-learn
+- NumPy
+- Pandas
+
+---
+
+## Workflow
+
+```text
+Training Dataset
+        │
+        ▼
+Linear Regression Model
+        │
+        ▼
+Model Training (fit)
+        │
+        ▼
+Testing Dataset
+        │
+        ▼
+Generate Predictions
+        │
+        ▼
+Compare Actual vs Predicted
+        │
+        ▼
+Calculate R² Score
+        │
+        ▼
+Evaluate Model Performance
+```
+
+---
+
+## Outcome
+
+- Successfully trained the Linear Regression model.
+- Generated accurate HDI predictions for unseen data.
+- Compared actual and predicted values to verify performance.
+- Evaluated the model using the R² score.
+- Confirmed the model is ready for saving and deployment.
+
+---
+
+## Result
+
+Epic 6 was successfully completed. The Linear Regression model was trained, evaluated, and validated, demonstrating its ability to accurately predict Human Development Index (HDI) scores based on selected socio-economic indicators.

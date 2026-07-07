@@ -1,1 +1,86 @@
+# Project Workflow
 
+## Overview
+
+This task outlines the complete development workflow of the **A Comprehensive Measure of Well-Being (HDI Prediction System)**. The project is divided into eight epics, covering environment setup, data preprocessing, machine learning model development, evaluation, model saving, and Flask web application deployment.
+
+---
+
+## Workflow Phases
+
+### Epic 1
+- Environment Setup
+- Package Installation
+- Project Folder Structure
+
+### Epic 2
+- Import Required Libraries
+
+### Epic 3
+- Dataset Download
+- Dataset Understanding
+- Data Visualization
+
+### Epic 4
+- Data Preprocessing
+- Feature Selection
+- Null Value Handling
+- Label Encoding
+
+### Epic 5
+- Train-Test Split
+
+### Epic 6
+- Linear Regression Model Training
+- Prediction
+- Model Evaluation
+
+### Epic 7
+- Save Trained Model using Pickle
+
+### Epic 8
+- Flask Backend Development
+- HTML Interface
+- Application Testing
+
+---
+
+## Workflow Diagram
+
+```
+Environment Setup
+      ↓
+Import Libraries
+      ↓
+Dataset Collection
+      ↓
+Data Understanding
+      ↓
+Visualization
+      ↓
+Preprocessing
+      ↓
+Train-Test Split
+      ↓
+Linear Regression
+      ↓
+Prediction
+      ↓
+Evaluation
+      ↓
+Save Model
+      ↓
+Flask Deployment
+```
+
+---
+
+## Outcome
+
+Successfully established a structured workflow covering every stage of the machine learning lifecycle, ensuring organized development and deployment of the HDI Prediction System.
+
+---
+
+## Result
+
+The workflow serves as a roadmap for implementing the project efficiently while maintaining scalability, code organization, and reproducibility.

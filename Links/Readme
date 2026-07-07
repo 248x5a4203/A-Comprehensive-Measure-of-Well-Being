@@ -1,1 +1,50 @@
+# Project Pre-requisites
 
+## Overview
+
+This task lists the software tools and Python libraries required to develop the **A Comprehensive Measure of Well-Being (HDI Prediction System)**. These technologies support data preprocessing, machine learning, visualization, and web application deployment.
+
+---
+
+## Required Software
+
+- Anaconda Navigator
+- PyCharm IDE
+
+---
+
+## Required Python Libraries
+
+- NumPy
+- Pandas
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- Flask
+
+---
+
+## Official Links
+
+| Tool | Link |
+|------|------|
+| Anaconda Navigator | https://www.anaconda.com/download |
+| PyCharm | https://www.jetbrains.com/pycharm/ |
+| NumPy | https://numpy.org/doc/stable/ |
+| Pandas | https://pandas.pydata.org/docs/ |
+| Scikit-learn | https://scikit-learn.org/stable/ |
+| Matplotlib | https://matplotlib.org/stable/ |
+| Seaborn | https://seaborn.pydata.org/ |
+| Flask | https://flask.palletsprojects.com/ |
+
+---
+
+## Outcome
+
+Successfully identified and documented all required software tools and libraries needed to build, train, and deploy the HDI Prediction System.
+
+---
+
+## Result
+
+The project environment is fully prepared for machine learning development, data visualization, and Flask-based deployment.

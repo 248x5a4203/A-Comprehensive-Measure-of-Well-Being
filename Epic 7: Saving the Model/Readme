@@ -1,1 +1,73 @@
+# Epic 7: Saving the Model
 
+## Overview
+
+Epic 7 focuses on preserving the trained **Linear Regression** model for future use. Instead of retraining the model whenever predictions are needed, the trained model is serialized using Python's **Pickle** module and stored as a `.pkl` file. This approach improves efficiency and enables seamless integration with the Flask web application.
+
+---
+
+## Objective
+
+- Save the trained Linear Regression model.
+- Serialize the model using Pickle.
+- Store the model in `.pkl` format.
+- Enable model reuse without retraining.
+- Prepare the model for deployment.
+
+---
+
+## Task Completed
+
+### Saving the Model
+
+- Imported the `pickle` module.
+- Serialized the trained Linear Regression model.
+- Saved the model as `hdi_model.pkl`.
+- Loaded the saved model to verify successful serialization.
+- Confirmed the model is ready for Flask-based deployment.
+
+---
+
+## Technologies Used
+
+- Python
+- Scikit-learn
+- Pickle
+
+---
+
+## Workflow
+
+```text
+Train Linear Regression Model
+            │
+            ▼
+Serialize Using Pickle
+            │
+            ▼
+Save as hdi_model.pkl
+            │
+            ▼
+Load Saved Model
+            │
+            ▼
+Use in Flask Application
+            │
+            ▼
+Generate HDI Predictions
+```
+
+---
+
+## Outcome
+
+- Successfully saved the trained model as a Pickle file.
+- Verified successful model loading.
+- Eliminated the need for retraining before prediction.
+- Prepared the model for deployment in the Flask web application.
+
+---
+
+## Result
+
+Epic 7 was successfully completed. The trained Linear Regression model is securely stored as a `.pkl` file and is ready to be integrated into the HDI Prediction web application for efficient and consistent predictions.

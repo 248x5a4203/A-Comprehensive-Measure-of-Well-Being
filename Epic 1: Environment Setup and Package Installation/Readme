@@ -1,1 +1,92 @@
+# Epic 1: Environment Setup and Package Installation
 
+## Overview
+
+Epic 1 focuses on preparing the development environment for the **A Comprehensive Measure of Well-Being (HDI Prediction System)**. This phase includes installing all required Python libraries and creating a well-organized project folder structure. A properly configured environment ensures smooth development, efficient dependency management, and easier project maintenance throughout the machine learning lifecycle.
+
+---
+
+## Objective
+
+- Set up the Python development environment.
+- Install all required libraries and dependencies.
+- Create a structured project directory.
+- Organize project files for better maintainability.
+- Prepare the project for machine learning model development and Flask deployment.
+
+---
+
+## Tasks Completed
+
+### Task 1: Download Required Packages
+
+Installed all necessary Python libraries using the `pip` package manager.
+
+**Libraries Installed**
+
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Flask
+
+**Installation Command**
+
+```bash
+pip install numpy pandas matplotlib scikit-learn Flask
+```
+
+---
+
+### Task 2: Set Up Folder Structure
+
+Created a structured project directory to organize datasets, machine learning models, application files, templates, and static resources.
+
+### Project Structure
+
+```
+HDI-Prediction-System/
+│
+├── Dataset/
+├── Model/
+├── Templates/
+├── Static/
+│   ├── css/
+│   ├── js/
+│   └── images/
+├── Notebook/
+├── app.py
+├── model_training.py
+├── requirements.txt
+├── README.md
+└── documentation.md
+```
+
+---
+
+## Technologies Used
+
+- Python 3.x
+- Visual Studio Code
+- pip Package Manager
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-learn
+- Flask
+
+---
+
+## Outcome
+
+- Successfully configured the Python development environment.
+- Installed all required project dependencies.
+- Created a clean and scalable folder structure.
+- Organized project resources for efficient development.
+- Prepared the environment for data preprocessing, model training, and web application development.
+
+---
+
+## Result
+
+Epic 1 was successfully completed by setting up the development environment and organizing the project architecture. The HDI Prediction System is now ready for the next phase, which involves importing libraries and working with the dataset.

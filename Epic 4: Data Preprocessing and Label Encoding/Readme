@@ -1,1 +1,125 @@
+# Epic 4: Data Preprocessing and Label Encoding
 
+## Overview
+
+Epic 4 focuses on preparing the **Human Development Index (HDI) Dataset** for machine learning by performing essential data preprocessing tasks. This phase ensures that the dataset is clean, consistent, and suitable for training the Linear Regression model.
+
+The preprocessing workflow includes selecting the input features (independent variables) and target variable (dependent variable), identifying and handling missing values, and preparing the dataset for the next stage of model development.
+
+---
+
+## Objective
+
+- Select relevant features for model training.
+- Identify the target variable for prediction.
+- Detect and handle missing values.
+- Improve data quality and consistency.
+- Prepare the dataset for train-test splitting and model training.
+
+---
+
+## Tasks Completed
+
+### Task 1: Selecting Dependent and Independent Variables
+
+The dataset was divided into:
+
+- **Independent Variables (X):**
+  - Country
+  - Life Expectancy
+  - Expected Years of Schooling
+  - Mean Years of Schooling
+  - Gross National Income (GNI) per Capita
+
+- **Dependent Variable (Y):**
+  - Human Development Index (HDI) Score
+
+Example:
+
+```python
+X = df.iloc[:, [2, 5, 6, 7, 8]]
+Y = df.iloc[:, 4]
+```
+
+---
+
+### Task 2: Checking and Handling Null Values
+
+Missing values in the selected input features were identified and replaced using the mean of each numerical column.
+
+#### Check Missing Values
+
+```python
+X.isnull().sum()
+```
+
+#### Fill Missing Values
+
+```python
+X = X.fillna(X.mean())
+```
+
+#### Verify Missing Values
+
+```python
+X.isnull().sum()
+```
+
+This ensured that the dataset was free from null values before model training.
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+
+---
+
+## Workflow
+
+```
+Load Dataset
+      │
+      ▼
+Select Independent Variables (X)
+      │
+      ▼
+Select Dependent Variable (Y)
+      │
+      ▼
+Check Missing Values
+      │
+      ▼
+Fill Null Values Using Mean
+      │
+      ▼
+Verify Clean Dataset
+      │
+      ▼
+Ready for Train-Test Split
+```
+
+---
+
+## Key Outcomes
+
+- Selected the most relevant input features for prediction.
+- Identified the HDI score as the target variable.
+- Detected missing values in the dataset.
+- Replaced null values using mean imputation.
+- Improved dataset quality and consistency.
+- Prepared the dataset for machine learning model development.
+
+---
+
+## Result
+
+Epic 4 was successfully completed by preprocessing the HDI dataset. The dataset is now clean, complete, and properly structured, making it suitable for train-test splitting and Linear Regression model training.
+
+---
+
+## Conclusion
+
+Data preprocessing is a crucial stage in the machine learning lifecycle. By selecting appropriate features and handling missing values, the dataset becomes more reliable and ready for building an accurate HDI prediction model. This preprocessing phase establishes a strong foundation for the subsequent model training and evaluation tasks.
